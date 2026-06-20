@@ -8,13 +8,17 @@ import java.util.*;
 public class Approach_1_Using_Nested_if_else {
 
     public static void largest_number(int n1, int n2, int n3) {
-        if (n1<n2 && n3<n2) {
+        if (n1>n2) {
+            if (n1>n3) {
+                System.out.println(n1 + " is largest number");
+            }else{
+                System.out.println(n3 + " is largest number");
+            }
+        }else if (n2>n3) {
             System.out.println(n2 + " is largest number");
-        }else if (n1<n3 && n2<n3) {
-            System.out.println(n3 + " is largest number");
             
         }else{
-            System.out.println(n1 + " is largest number");
+            System.out.println(n3 + " is largest number");
         }
     }
 
@@ -31,3 +35,4 @@ public class Approach_1_Using_Nested_if_else {
 
     }
 }
+ 
