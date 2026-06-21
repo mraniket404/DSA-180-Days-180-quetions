@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Approach_2_Using_Bitwise_AND {
 
     public static void even_odd(int n) {
-        if ((n&1)==0) { // yaha par condition check hita he like a n&1 ye == 0 he kya tab even print hoga nahi to odd
+        if ((n&1)==0) { // yaha par condition check hota he like a n&1 ye == 0 he kya tab even print hoga nahi to odd
             System.out.println(n+" is even number");
         }else{
             System.out.println(n + " is odd number");// this is for even nahi huaa to ye print hoga
