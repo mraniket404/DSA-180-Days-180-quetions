@@ -24,7 +24,5 @@ public class Approach_1_Using_For_Loop {
         System.out.print("Enter the number : ");
         int n = sc.nextInt();
         factorial(n);
-
-
     }
 }
