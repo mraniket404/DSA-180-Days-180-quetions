@@ -2,7 +2,7 @@ import java.util.*;
 public class Approach_2_Better_Approach {
     public static void prime_number(int num) {
         boolean prime = true;
-          if (num<=1) {
+          if (num<=1) { 
             prime=false;
         }else{
 
