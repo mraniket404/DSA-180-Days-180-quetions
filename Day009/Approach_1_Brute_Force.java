@@ -1,3 +1,12 @@
+// Day 9 - Prime Number Check ⭐ 
+// Question 
+// Ek number N diya gaya hai. Check karo ki wo Prime Number hai ya nahi. 
+// Prime Number 
+// Prime number wo hota hai jo: 
+// Sirf 2 numbers se divide hota hai 
+ 
+// 1 aur khud se
+
 import java.util.*;
 public class Approach_1_Brute_Force {
     public static void prime_number(int num) {
