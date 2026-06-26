@@ -1,11 +1,11 @@
 import java.util.*;
 public class Approach_2_Recursion {
     public static int fibonacci_series(int n) {
-        if(n <= 1) 
+        if(n <= 1) {  //Base Case
             return n; 
- 
+        }else{
         return fibonacci_series(n - 1) + fibonacci_series(n - 2); 
-
+        }
     }
     public static void main(String[] args) {
         
